@@ -1,7 +1,28 @@
 {
   "pages": [
-    "pages/home/home"
+    "pages/home/home",
+    "pages/mine/mine"
   ],
+  "tabBar": {
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tarbar/home.png",
+        "selectedIconPath": "assets/tarbar/home_active.png"
+      }, {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "assets/tarbar/mine.png",
+        "selectedIconPath": "assets/tarbar/mine_active.png"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
